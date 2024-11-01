@@ -25,7 +25,7 @@ function Navbar() {
                     <img src={logo} alt="" className='w-[110px]' />
                     <TbMenuDeep fontSize='30px' onClick={() => settogglenavbar(!togglenavbar)} />
                 </div>
-                <div className={`w-[50%] h-[100%] bg-white fixed top-0 right-0 p-1 transform transition-transform duration-300 ease-in-out ${togglenavbar ? 'translate-x-100' : 'translate-x-full'}`}>
+                <div className={`w-[50%] h-[100%] bg-white fixed top-0 right-0 p-1 z-20 transform transition-transform duration-300 ease-in-out ${togglenavbar ? 'translate-x-100' : 'translate-x-full'}`}>
                     <RxCross2 color='black' fontSize='25px' className=' float-right' onClick={() => settogglenavbar(!togglenavbar)} />
                     <div className=' text-black mt-7 flex flex-col gap-10 items-center font-semibold'>
                         <Link to='home' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Home</Link>
