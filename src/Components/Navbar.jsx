@@ -13,7 +13,7 @@ function Navbar() {
                 <div className='flex justify-center gap-14 text-[18px]'>
                     <Link to='home' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Home</Link>
                     <Link to='about' smooth={true} duration={500} style={{ cursor: 'pointer' }}>About Me</Link>
-                    <Link to='service' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Services</Link>
+                    <Link to='service' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Skills</Link>
                     <Link to='portfolio' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Portfolio</Link>
                     <Link to='contact' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Contact</Link>
                 </div>
@@ -30,7 +30,7 @@ function Navbar() {
                     <div className=' text-black mt-7 flex flex-col gap-10 items-center font-semibold'>
                         <Link to='home' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Home</Link>
                         <Link to='about' smooth={true} duration={500} style={{ cursor: 'pointer' }}>About Me</Link>
-                        <Link to='service' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Services</Link>
+                        <Link to='service' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Skills</Link>
                         <Link to='portfolio' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Portfolio</Link>
                         <Link to='contact' smooth={true} duration={500} style={{ cursor: 'pointer' }}>Contact</Link>
                     </div>

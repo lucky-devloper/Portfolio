@@ -13,7 +13,7 @@ function Aboutpage() {
                 <img src={profile} alt="" className='w-[300px] h-[350px] object-cover rounded-lg hidden lg:block' />
                 <div className='w-[100%] h-[100%] lg:p-7'>
                     <div className='w-[100%] text-[15px] lg:text-[17px] font-semibold'>
-                        <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                        <p>I'm a frontend developer with hands-on experience building and deploying live projects. Skilled in HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, and SCSS, I focus on creating responsive, user-friendly interfaces and passionate about delivering high-quality web experiences</p>
                         <p className='mt-5'>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
                     </div>
                     <div className="w-[100%] text-white mt-6 lg:mt-10 flex flex-col gap-4">

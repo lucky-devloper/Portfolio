@@ -6,10 +6,12 @@ import ServicesPage from './Components/ServicesPage'
 import Projectpage from './Components/Projectpage'
 import Contectpage from './Components/Contectpage'
 import Footer from './Components/Footer'
+import Mouseflower from './Components/Mouseflower'
 
 function App() {
   return (
     <div className='w-[100%] h-[100%] bg-black text-white'>
+      <Mouseflower />
       <Navbar />
       <Homepage />
       <Aboutpage />
