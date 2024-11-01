@@ -28,13 +28,13 @@ function Contectpage() {
                         <p>bihar, India</p>
                     </span>
                 </div>
-                <form action='https://formspree.io/f/{mwpklbww}' method='POST' className='w-[100%] lg:w-[60%] flex flex-col gap-2 mt-4 lg:mt-0 lg:px-3'>
+                <form action='https://formspree.io/f/mwpklbww' method='POST' className='w-[100%] lg:w-[60%] flex flex-col gap-2 mt-4 lg:mt-0 lg:px-3'>
                     <label htmlFor="" className='text-[13px] lg:text-[18px] text-gray-300 font-semibold'>Your Name</label>
-                    <input type="text" placeholder='Enter your name' className='w-[90%] lg:w-[100%] h-[50px] bg-gray-700 px-2 rounded-md outline-none' />
+                    <input type="text" name='name' placeholder='Enter your name' className='w-[90%] lg:w-[100%] h-[50px] bg-gray-700 px-2 rounded-md outline-none' />
                     <label htmlFor="" className='text-[13px] lg:text-[18px] text-gray-300 font-semibold'>Your Email</label>
-                    <input type="email" placeholder='Enter your email' className='w-[90%] lg:w-[100%] h-[50px] bg-gray-700 px-2 rounded-md outline-none' />
+                    <input type="email" name='email' placeholder='Enter your email' className='w-[90%] lg:w-[100%] h-[50px] bg-gray-700 px-2 rounded-md outline-none' />
                     <label htmlFor="" className='text-[13px] lg:text-[18px] text-gray-300 font-semibold'>Write your message here </label>
-                    <textarea placeholder='Enter your message' cols="30" rows="7" className='bg-gray-700 px-2 rounded-md outline-none'></textarea>
+                    <textarea name='message' placeholder='Enter your message' cols="30" rows="7" className='bg-gray-700 px-2 rounded-md outline-none'></textarea>
                     <button type='submit' className='mt-4 h-[55px] w-[160px] rounded-full bg-gradient-to-r from-pink-400 via-red-500 to-orange-400'>Submit now</button>
                 </form>
             </div>
