@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-gradient {
+    background: linear-gradient(270deg, #DF8908, #B415FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.services-format {
+    background: linear-gradient(270deg, #DF8908 60%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:320px){
+    .nav-tab{
+        display: none;
+    }
+}
