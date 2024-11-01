@@ -1,12 +1,13 @@
 import React from 'react'
 import profile from '../assets/profile.jpg'
+import tag from '../assets/tag.png'
 
 function Aboutpage() {
     return (
         <div id='about' className="w-[100%] h-[100%] px-4 lg:px-0 lg:flex lg:flex-col lg:items-center">
             <div className='w-[100%] h-[170px] relative flex items-center lg:justify-center'>
                 <h1 className="text-4xl lg:text-6xl font-bold z-20 relative">About me</h1>
-                <img src="tag.png" alt="" className="w-[120px] lg:w-[185px] absolute top-20 left-28 lg:top-17 lg:left-[50%] z-0" />
+                <img src={tag} alt="" className="w-[120px] lg:w-[185px] absolute top-20 left-28 lg:top-17 lg:left-[50%] z-0" />
             </div>
             <div className='lg:w-[80%] w-[100%] lg:h-[400px] lg:flex lg:items-center lg:justify-between'>
                 <img src={profile} alt="" className='w-[300px] h-[350px] object-cover rounded-lg hidden lg:block' />

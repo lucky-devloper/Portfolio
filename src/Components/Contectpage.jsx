@@ -2,13 +2,14 @@ import React from 'react'
 import { MdOutlineEmail } from "react-icons/md";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { FaLocationDot } from "react-icons/fa6";
+import tag from '../assets/tag.png'
 
 function Contectpage() {
     return (
         <div id='contact' className='w-[100%] h-[100%] px-5 lg:px-0 lg:flex lg:flex-col lg:items-center'>
             <div className='w-[100%] h-[140px] relative flex items-center lg:justify-center '>
                 <h1 className="text-4xl lg:text-6xl font-bold z-20 relative">Get in touch</h1>
-                <img src="tag.png" alt="" className="w-[110px] lg:w-[185px] absolute top-16 left-36 lg:top-14 lg:left-[53%] z-0" />
+                <img src={tag} alt="" className="w-[110px] lg:w-[185px] absolute top-16 left-36 lg:top-14 lg:left-[53%] z-0" />
             </div>
             <div className='w-[100%] lg:w-[80%] h-fit lg:flex lg:items-start lg:gap-10'>
                 <div className='w-[100%] lg:w-[40%] flex flex-col gap-4 lg:gap-8'>

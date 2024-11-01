@@ -1,4 +1,5 @@
 import React from 'react'
+import tag from '../assets/tag.png'
 
 function Footer() {
     return (
@@ -7,7 +8,7 @@ function Footer() {
                 <div className='lg:w-[50%] h-[100%] flex flex-col gap-3 lg:gap-7'>
                     <div className='w-[100%] h-[80px] relative flex items-end'>
                         <h1 className="text-4xl lg:text-5xl font-bold z-20 relative">PriTam</h1>
-                        <img src="tag.png" alt="" className="w-[100px] lg:w-[120px] absolute top-14 left-16 lg:top-14 lg:left-[14%] z-0" />
+                        <img src={tag} alt="" className="w-[100px] lg:w-[120px] absolute top-14 left-16 lg:top-14 lg:left-[14%] z-0" />
                     </div>
                     <p className='lg:w-[400px]'>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
                 </div>
