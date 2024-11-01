@@ -1,4 +1,5 @@
 import React from 'react'
+import profile from '../assets/profile.jpg'
 
 function Aboutpage() {
     return (
@@ -8,7 +9,7 @@ function Aboutpage() {
                 <img src="tag.png" alt="" className="w-[120px] lg:w-[185px] absolute top-20 left-28 lg:top-17 lg:left-[50%] z-0" />
             </div>
             <div className='lg:w-[80%] w-[100%] lg:h-[400px] lg:flex lg:items-center lg:justify-between'>
-                <img src="profile.jpg" alt="" className='w-[300px] h-[350px] object-cover rounded-lg hidden lg:block' />
+                <img src={profile} alt="" className='w-[300px] h-[350px] object-cover rounded-lg hidden lg:block' />
                 <div className='w-[100%] h-[100%] lg:p-7'>
                     <div className='w-[100%] text-[15px] lg:text-[17px] font-semibold'>
                         <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>

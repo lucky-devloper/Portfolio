@@ -1,5 +1,9 @@
 import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
+import ecommerce from '../assets/ecommerce.png'
+import pasteapp from '../assets/paste.com.png'
+import managementapp from '../assets/amnagementapp.png'
+import expanceapp from '../assets/expance.png'
 
 function Projectpage() {
     return (
@@ -10,16 +14,16 @@ function Projectpage() {
             </div>
             <div className='w-[100%] lg:w-[80%] h-fit grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5'>
                 <div className='w-[100%] h-[100px] lg:h-[250px] rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src="ecommerce.png" alt="" className='w-[100%] h-[100%] object-cover' />
+                    <img src={ecommerce} alt="" className='w-[100%] h-[100%] object-cover' />
                 </div>
                 <div className='w-[100%] h-[100px] lg:h-[250px] rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src="paste.com.png" alt="" className='w-[100%] h-[100%] object-cover' />
+                    <img src={pasteapp} alt="" className='w-[100%] h-[100%] object-cover' />
                 </div>
                 <div className='w-[100%] h-[100px] lg:h-[250px] rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src="amnagementapp.png" alt="" className='w-[100%] h-[100%] object-cover' />
+                    <img src={managementapp} alt="" className='w-[100%] h-[100%] object-cover' />
                 </div>
                 <div className='w-[100%] h-[100px] lg:h-[250px] bg-white rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src="expance.png" alt="" className='w-[100%] h-[100%] object-cover' />
+                    <img src={expanceapp} alt="" className='w-[100%] h-[100%] object-cover' />
                 </div>
             </div>
             <div className='w-[100%] flex justify-center h-[50px] lg:h-[60px] mt-5'>

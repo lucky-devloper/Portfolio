@@ -1,9 +1,10 @@
 import React from 'react'
+import profile from '../assets/profile.jpg'
 
 function Homepage() {
     return (
         <div id='home' className='w-[100%] h-fit flex justify-center items-center flex-col gap-5 py-2'>
-            <img src="profile.jpg" alt="" className='w-[200px] h-[200px] lg:h-[250px] lg:w-[250px] object-cover rounded-full lg:mt-14' />
+            <img src={profile} alt="" className='w-[200px] h-[200px] lg:h-[250px] lg:w-[250px] object-cover rounded-full lg:mt-14' />
             <div className='w-[98%] lg:hidden'>
                 <h1 className='text-4xl font-bold bg-gradient-to-r from-pink-400 via-red-500 to-orange-400 bg-clip-text text-transparent w-[100%] text-center'>I'm Pritam Sharma</h1>
                 <span className='text-4xl text-center font-semibold flex flex-col items-center gap-5 mt-4'>
