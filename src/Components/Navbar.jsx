@@ -22,7 +22,7 @@ function Navbar() {
             {/* small size navbar */}
             <div className='w-[100%] h-[100%] lg:hidden'>
                 <div className='w-[100%] h-[100%] flex justify-between items-center bg-white bg-opacity-[0.3] px-2'>
-                    <img src="logo.png" alt="" className='w-[110px]' />
+                    <img src={logo} alt="" className='w-[110px]' />
                     <TbMenuDeep fontSize='30px' onClick={() => settogglenavbar(!togglenavbar)} />
                 </div>
                 <div className={`w-[50%] h-[100%] bg-white fixed top-0 right-0 p-1 transform transition-transform duration-300 ease-in-out ${togglenavbar ? 'translate-x-100' : 'translate-x-full'}`}>
