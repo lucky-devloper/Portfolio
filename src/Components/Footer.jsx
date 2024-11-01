@@ -10,7 +10,7 @@ function Footer() {
                         <h1 className="text-4xl lg:text-5xl font-bold z-20 relative">PriTam</h1>
                         <img src={tag} alt="" className="w-[100px] lg:w-[120px] absolute top-14 left-16 lg:top-14 lg:left-[14%] z-0" />
                     </div>
-                    <p className='lg:w-[400px]'>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
+                    <p className='lg:w-[400px]'>I am a frontend developer from, India with 6 month of experience as a freelancer and web-developer.</p>
                 </div>
                 <div className='lg:w-[50%] flex lg:items-center lg:justify-end gap-5'>
                     <input type="text" placeholder='Enter your email' className='h-[40px] w-[150px] lg:w-[300px] lg:h-[55px] text-[13px] lg:text-[18px] px-3 lg:px-4 rounded-full bg-gray-700 outline-none' />

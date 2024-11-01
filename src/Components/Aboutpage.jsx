@@ -7,7 +7,7 @@ function Aboutpage() {
         <div id='about' className="w-[100%] h-[100%] px-4 lg:px-0 lg:flex lg:flex-col lg:items-center">
             <div className='w-[100%] h-[170px] relative flex items-center lg:justify-center'>
                 <h1 className="text-4xl lg:text-6xl font-bold z-20 relative">About me</h1>
-                <img src={tag} alt="" className="w-[120px] lg:w-[185px] absolute top-20 left-28 lg:top-17 lg:left-[50%] z-0" />
+                <img src={tag} alt="" className="w-[120px] lg:w-[185px] absolute top-20 left-24 lg:top-17 lg:left-[50%] z-0" />
             </div>
             <div className='lg:w-[80%] w-[100%] lg:h-[400px] lg:flex lg:items-center lg:justify-between'>
                 <img src={profile} alt="" className='w-[300px] h-[350px] object-cover rounded-lg hidden lg:block' />
@@ -44,17 +44,17 @@ function Aboutpage() {
                     </div>
                 </div>
             </div>
-            <div className='w-[100%] lg:w-[80%] h-[120px] flex items-center lg:justify-between'>
-                <div className='w-[320px] h-[80px] lg:w-[33%] border-r-2 border-white flex flex-col justify-center items-center font-semibold'>
-                    <h1 className='text-gradient text-[25px] lg:text-5xl'>1.5+</h1>
-                    <p className='text-[12px] lg:text-[20px] text-center'>YEARS OF EXPERIENCE</p>
+            <div className='w-[100%] lg:w-[80%] h-[120px] flex items-center gap-1 justify-between'>
+                <div className=' h-[80px] w-[33%] border-r-2 border-white flex flex-col justify-center items-center font-semibold px-1'>
+                    <h1 className='text-gradient text-[25px] lg:text-5xl'>6+</h1>
+                    <p className='text-[12px] lg:text-[20px] text-center'>MONTH OF EXPERIENCE</p>
                 </div>
-                <div className='w-[320px] h-[80px] lg:w-[33%] border-r-2 border-white flex flex-col justify-center items-center font-semibold'>
+                <div className=' h-[80px] w-[33%] border-r-2 border-white flex flex-col justify-center items-center font-semibold px-1'>
                     <h1 className='text-gradient text-[25px] lg:text-5xl'>10+</h1>
                     <p className='text-[12px] lg:text-[20px] text-center'>PROJECTS COMPLETED</p>
                 </div>
-                <div className='w-[285px] h-[80px] lg:w-[33%] flex flex-col justify-center items-center font-semibold'>
-                    <h1 className='text-gradient text-[25px] lg:text-5xl'>3+</h1>
+                <div className=' h-[80px] w-[33%] flex flex-col justify-center items-center font-semibold'>
+                    <h1 className='text-gradient text-[25px] lg:text-5xl'>2+</h1>
                     <p className='text-[12px] lg:text-[20px] text-center'>HAPPY CLIENTS</p>
                 </div>
             </div>
