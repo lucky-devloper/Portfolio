@@ -15,16 +15,16 @@ function Projectpage() {
             </div>
             <div className='w-[100%] lg:w-[80%] h-fit grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5'>
                 <div className='w-[100%] h-[100px] lg:h-[250px] rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src={ecommerce} alt="" className='w-[100%] h-[100%] object-cover' />
+                    <a href="https://e-commerce-in-react-plum.vercel.app/"><img src={ecommerce} alt="" className='w-[100%] h-[100%] object-cover' /></a>
                 </div>
                 <div className='w-[100%] h-[100px] lg:h-[250px] rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src={pasteapp} alt="" className='w-[100%] h-[100%] object-cover' />
+                    <a href="https://paste-editer.vercel.app/"><img src={pasteapp} alt="" className='w-[100%] h-[100%] object-cover' /></a>
                 </div>
                 <div className='w-[100%] h-[100px] lg:h-[250px] rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src={managementapp} alt="" className='w-[100%] h-[100%] object-cover' />
+                    <a href="https://employee-management-tau-green.vercel.app/"><img src={managementapp} alt="" className='w-[100%] h-[100%] object-cover' /></a>
                 </div>
                 <div className='w-[100%] h-[100px] lg:h-[250px] bg-white rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
-                    <img src={expanceapp} alt="" className='w-[100%] h-[100%] object-cover' />
+                    <a href="https://expense-tracker-dusky-two.vercel.app/"><img src={expanceapp} alt="" className='w-[100%] h-[100%] object-cover' /></a>
                 </div>
             </div>
             <div className='w-[100%] flex justify-center h-[50px] lg:h-[60px] mt-5'>

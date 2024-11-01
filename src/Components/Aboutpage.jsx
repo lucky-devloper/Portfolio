@@ -54,7 +54,7 @@ function Aboutpage() {
                     <p className='text-[12px] lg:text-[20px] text-center'>PROJECTS COMPLETED</p>
                 </div>
                 <div className=' h-[80px] w-[33%] flex flex-col justify-center items-center font-semibold'>
-                    <h1 className='text-gradient text-[25px] lg:text-5xl'>2+</h1>
+                    <h1 className='text-gradient text-[25px] lg:text-5xl'>0+</h1>
                     <p className='text-[12px] lg:text-[20px] text-center'>HAPPY CLIENTS</p>
                 </div>
             </div>

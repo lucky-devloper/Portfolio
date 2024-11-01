@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from '../assets/profile.jpg'
+import { Link } from 'react-scroll'
 
 function Homepage() {
     return (
@@ -18,7 +19,7 @@ function Homepage() {
             </div>
             <p className='text-[15px] lg:text-xl lg:w-[50%] text-center w-[70%]'>I am a frontend developer from Bihar, India with 6 month of experience in freelancer as a fronted developer.</p>
             <div className='w-[100%] h-[50px] lg:h-[60px] flex justify-center items-center gap-5'>
-                <button className='w-[130px] h-[100%] lg:w-[160px] lg:text-[15px] font-semibold text-[13px] rounded-full bg-gradient-to-r from-pink-400 via-red-500 to-orange-400 lg:hover:border-2 lg:hover border-white'>Connect With Me</button>
+                <Link to='contact' smooth={true} duration={500} style={{ cursor: 'pointer' }} className='w-[130px] h-[100%] lg:w-[160px] lg:text-[15px] font-semibold text-[13px] rounded-full bg-gradient-to-r from-pink-400 via-red-500 to-orange-400 lg:hover:border-2 lg:hover border-white text-center flex items-center justify-center'>Connect With Me</Link>
                 <a href="https://amaranth-rosalyn-74.tiiny.site" className='h-[100%] w-[120px] lg:w-[150px] border-2 border-white text-[13px] lg:text-[16px] font-semibold lg:hover:border-blue-600 rounded-full flex items-center justify-center'>My resume</a>
             </div>
         </div>
