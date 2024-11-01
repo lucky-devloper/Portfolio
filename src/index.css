@@ -17,7 +17,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media (min-width: 320px) and (max-width: 375px){
+@media (min-width: 320px) and (max-width: 380px){
     .nav-tab{
         display: none;
     }
