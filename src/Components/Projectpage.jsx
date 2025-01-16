@@ -5,6 +5,7 @@ import ecommerce from '../assets/ecommerce.png'
 import pasteapp from '../assets/paste.com.png'
 import managementapp from '../assets/amnagementapp.png'
 import expanceapp from '../assets/expance.png'
+import foodApp from '../assets/Foodapp'
 
 function Projectpage() {
     return (
@@ -25,6 +26,9 @@ function Projectpage() {
                 </div>
                 <div className='w-[100%] h-[100px] lg:h-[250px] bg-white rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
                     <a href="https://expense-tracker-dusky-two.vercel.app/"><img src={expanceapp} alt="" className='w-[100%] h-[100%] object-cover' /></a>
+                </div>
+                <div className='w-[100%] h-[100px] lg:h-[250px] bg-white rounded-md overflow-hidden hover:border-pink-500 hover:border-4 hover:scale-105 transform transition-transform duration-300'>
+                    <a href="https://client-side-food-app.vercel.app/"><img src={foodApp} alt="" className='w-[100%] h-[100%] object-cover' /></a>
                 </div>
             </div>
             <div className='w-[100%] flex justify-center h-[50px] lg:h-[60px] mt-5'>
