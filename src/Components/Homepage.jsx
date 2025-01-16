@@ -29,7 +29,7 @@ function Homepage() {
             </div>
             <p className='text-[15px] lg:text-xl lg:w-[50%] text-center w-[90%]'>I am full stack developer from Bihar, India. And i have strong knowledge of hands-on experience building and deploying live projects</p>
             <h1 className='text-2xl font-semibold'>Technologies</h1>
-            <div className='flex items-center justify-center gap-2 lg:gap-8'>
+            <div className='flex items-center justify-center flex-wrap gap-2 lg:gap-8'>
                 <IoLogoHtml5 color='#dd4b24' className='text-[30px] lg:text-[40px]' />
                 <SiCss3 color='#2862e8' className='text-[25px] lg:text-[35px]' />
                 <RiJavascriptFill color='#ecdb1c' className='text-[32px] lg:text-[44px]' />
