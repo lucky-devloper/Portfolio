@@ -5,7 +5,7 @@ import ecommerce from '../assets/ecommerce.png'
 import pasteapp from '../assets/paste.com.png'
 import managementapp from '../assets/amnagementapp.png'
 import expanceapp from '../assets/expance.png'
-import FoodApp from '../assets/FoodApp.png'
+import FoodApp from '../assets/Foodapp.png'
 
 function Projectpage() {
     return (
