@@ -13,10 +13,10 @@ function Aboutpage() {
                 <img src={profile} alt="" className='w-[300px] h-[350px] object-cover rounded-lg hidden lg:block' />
                 <div className='w-[100%] h-[100%] lg:p-7'>
                     <div className='w-[100%] text-[15px] lg:text-[17px] font-semibold'>
-                        <p>I'm a frontend developer with hands-on experience building and deploying live projects. Skilled in HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, and SCSS, I focus on creating responsive, user-friendly interfaces and passionate about delivering high-quality web experiences</p>
+                        <p>I'm a full stack developer with hands-on experience building and deploying live projects. Skilled in HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, and SCSS, I focus on creating responsive, user-friendly interfaces and passionate about delivering high-quality web experiences</p>
                         <p className='mt-5'>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
                     </div>
-                    <div className="w-[100%] text-white mt-6 lg:mt-10 flex flex-col gap-4">
+                    <div className="w-[100%] text-white mt-6 lg:mt-3 flex flex-col gap-2">
                         <div className="flex items-center gap-1  hover:scale-105 transform transition-transform duration-300">
                             <span className="w-1/3 font-semibold">HTML & CSS</span>
                             <div className="w-2/3 h-2 bg-gray-800 rounded-full overflow-hidden">
@@ -39,6 +39,18 @@ function Aboutpage() {
                             <span className="w-1/3 font-semibold">Node JS</span>
                             <div className="w-2/3 h-2 bg-gray-800 rounded-full overflow-hidden">
                                 <div className="h-full bg-gradient-to-r from-purple-500 to-orange-500" style={{ width: '60%' }}></div>
+                            </div>
+                        </div>
+                        <div className="flex items-center gap-1 hover:scale-105 transform transition-transform duration-300">
+                            <span className="w-1/3 font-semibold">Express JS</span>
+                            <div className="w-2/3 h-2 bg-gray-800 rounded-full overflow-hidden">
+                                <div className="h-full bg-gradient-to-r from-purple-500 to-orange-500" style={{ width: '80%' }}></div>
+                            </div>
+                        </div>
+                        <div className="flex items-center gap-1 hover:scale-105 transform transition-transform duration-300">
+                            <span className="w-1/3 font-semibold">Mongo DB</span>
+                            <div className="w-2/3 h-2 bg-gray-800 rounded-full overflow-hidden">
+                                <div className="h-full bg-gradient-to-r from-purple-500 to-orange-500" style={{ width: '80%' }}></div>
                             </div>
                         </div>
                     </div>
