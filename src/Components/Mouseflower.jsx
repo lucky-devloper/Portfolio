@@ -31,7 +31,7 @@ const Mouseflower = () => {
           pointerEvents: 'none',   // Prevent blocking mouse events
           zIndex: 9999,
         }}
-      ></div>
+       className='lg:block hidden'></div>
 
       {/* Main content */}
       <div></div>
